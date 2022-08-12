@@ -1,5 +1,22 @@
 @import './utils/variables';
+@import './utils/visually-hidden';
+
 @import './base/common';
 @import './base/container';
 @import './base/section';
-@import './utils/visually-hidden';
+
+
+@import './components/logo';
+@import './components/backdrop';
+@import './components/uppercase';
+@import './components/secondary-title';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/modal';
+@import './layout/advantages';
+@import './layout/activity';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/portfolio';
+@import './layout/footer';
