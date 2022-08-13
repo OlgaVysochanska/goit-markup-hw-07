@@ -1,15 +1,16 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/mixins';
 
 @import './base/common';
 @import './base/container';
 @import './base/section';
 
-
 @import './components/logo';
 @import './components/backdrop';
 @import './components/uppercase';
 @import './components/secondary-title';
+@import './components/social-list';
 
 @import './layout/header';
 @import './layout/hero';

@@ -1,4 +1,4 @@
-.section.advantages {
+.section_advantages {
     padding-bottom: 0;
 }
 
@@ -7,15 +7,15 @@
     gap: 30px;
 }
 
-.advantages-item {
+.advantages__item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.advantages-title.uppercase {
+.advantages__title {
     margin-bottom: 10px;
 }
 
-.advantages-description {
+.advantages__description {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -23,7 +23,7 @@
     color: var(--secondary-text-color)
 }
 
-.advantage-icon {
+.advantages__icon {
     width: 270px;
     height: 120px;
     display: flex;

@@ -3,14 +3,15 @@
     gap: 30px;
 }
 
-.activity-item {
+.activity__item {
     position: relative;
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.activity.uppercase {
+.activity__desc {
     position: absolute;
     bottom: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
